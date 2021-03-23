@@ -1,11 +1,13 @@
 # social-network-FRONT
 
-build:
+build: https://doggo-network.netlify.app/<br/>
+Made with TypeScript and reactHooks
 
-Please create an account or use the existing credentials
-login: new6@email.com 
+Please create a new account or use the existing credentials<br/>
+login: new6@email.com<br/>
 password:123456
-
-run a dev server - npm start
-create build - npm run build
+<br/>
+<br/>
+run a dev server - npm start<br/>
+create build - npm run build<br/>
 check eslint errors - npx eslint . --ext .ts,.tsx
