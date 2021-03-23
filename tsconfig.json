@@ -16,7 +16,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "removeComments": true
+    "removeComments": true,
+    "typeRoots": ["node_modules/@types", "src/redux/types/declaration.d.ts"]
   },
-  "include": ["src"]
+  "include": ["src", "react-app-env.d.ts"],
+  "exclude": ["src/*[^.d$].ts"]
 }

@@ -62,10 +62,5 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     port: 5000,
-    // index: '',
-    // proxy: {
-    //   context: () => true,
-    //   target: 'https://europe-west1-socialapp-bf68e.cloudfunctions.net/api',
-    // },
   },
 };
